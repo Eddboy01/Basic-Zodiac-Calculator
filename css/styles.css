@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fb9224;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    text-align: center;
+    padding: 1rem;
+}
+.container h1{
+    color: #fff;
+    padding: .7rem;
+    font-size: 2.5rem;
+}
+.container select, .container button{
+    padding: 1rem;
+    width: 75%;
+    margin: 10px auto;
+}
+.btn{
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: #272121;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1.4rem;
+
+}
+.container .output{
+    color: #fff;
+    padding: 1.3rem;
+}
+.output{
+    padding: 1rem;
+    border: 2px solid #fff;
+}
+.output p{
+    font-size: 1.5rem;
+}
+
+
